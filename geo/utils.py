@@ -1,8 +1,9 @@
-A = [14, 15, 34, 50, 60]
-B = [2, 5, 7, 8, 10]
+import math
 
-C= A + B
+def pythagoras(a, b):
+    c = math.sqrt(a**2 + b**2)
+    return c
 
-C.sort()
-
-print(C)
+def circle(r):
+    area = math.pi * r**2
+    return area
